@@ -547,6 +547,102 @@ SUMIFS(Dataset1!$J$2:$J$50,Dataset1!$C$2:$C$50,Summary!D$4,Dataset1!$E$2:$E$50,S
 
 # Time Series Analysis
 
+```
+=day("05/04/2014")
+```
+
+```
+=month("05/04/2014")
+```
+
+```
+=year("05/04/2014")
+```
+
+```
+=date(year, moth, day)
+```
+
+
+```
+=today()
+```
+
+```
+=now()
+```
+
+```
+=hour(now())
+```
+
+```
+=minute(now())
+```
+
+```
+=second(now())
+```
+
+```
+=edate(now(), 3)
+```
+
+```
+=eomonth()
+```
+
+```
+=text(a8, "DD")
+```
+
+```
+=text(a8, "DDD")
+```
+
+```
+=text(a8, "DDDD")
+```
+
+```
+=text(a8, "MM")
+```
+
+```
+=text(a8, "MMM")
+```
+
+```
+=text(a8, "MMMM")
+```
+
+```
+=NETWORKDAYS(A1, A30, A8:A9)
+```
+
+```
+=NETWORKDAYS.INTL(A1, A38)
+```
+
+```
+WORKDAY
+```
+
+```
+WORKDAY.INTL
+```
+
+```
+WEEKDAY
+```
+
+```
+WEEKNUM
+```
+
+```
+DATEDIFF
+```
 
 
 # VBA Training
